@@ -1,4 +1,31 @@
+.wrapper {
+    text-align: center;
+}
+
+.container {
+    white-space:nowrap; 
+    display:inline-block;
+}
+
+#logo {
+    display:inline;
+}
+
+#name {
+    display:inline; 
+    white-space:nowrap;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .img_circler {
+    margin-left:40%;
     width: 150px;
     height: 150px;
     overflow: hidden;
@@ -11,14 +38,23 @@ img {
     width: auto;
 }
 
-#website_name {
-    /*text-align: center;*/
-    font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+a.button:link,
+a.button:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    border-radius: 25px;
 }
 
-#website_logo {
-    margin: 0;
-    max-height: 50px;
-    width: auto;
+a.button:hover,
+a.button:active {
+    background-color: rgb(0, 191, 255);
+}
+
+#home_button {
+    margin-left: 0%;
 }
