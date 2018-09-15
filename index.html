@@ -4,34 +4,39 @@
 <head>
   <meta charset="utf-8">
   <title>Microscope</title>
-  <meta name="description" content="This is a website with some pics">
-  <meta name="author" content="The immaculate">
 
   <style>
-    @import "style.css";
+    @import "stylesheets/style.css";
   </style>
 
 </head>
 
 <body>
-
   <div class="wrapper">
     <div class="container">
-      <div id="logo">
-        <img src="images/Logo.png"/ style="max-height: 50px">
-      </div>
-      <div id="name">
-        MICROSCOPE
-      </div>
-      <div id = "description">
-        <p>This is a website with some pics</p>
-      </div>
+
+      <span id="logo">
+        <img src="images/Logo.png">
+        <p>MICROSCOPE</p>
+      </span>
+
       <div>
-        <a class="button" href="users.html">Users</a>
+        <div id="menu">
+          <ul>
+            <li><a class="button" href="index.html" style="background-color: rgb(26, 26, 26)">Home</a></li>
+            <li><a class="button" href="photos.html">Photos</a></li>
+            <li><a class="button" href="users.html">Users</a></li>
+            <li><a class="button" href="about.html">About</a></li>
+          </ul>
+        </div>
+
+        <div class="contents">
+          <p class="text">Hi, welcome to Microscope - a platform for hi-res photo sharing. There is a menu on the left and, as you can see, you are able to look through some photos, see who uses the website and read additional information about the platform and people who made it. Thank you for using the product, enjoy.</p>
+        </div>
       </div>
+
     </div>​
   </div>
-
 </body>
 
 </html>

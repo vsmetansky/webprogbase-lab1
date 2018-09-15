@@ -7,26 +7,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Users</title>
     <style>
-        @import "style.css";
+        @import "stylesheets/style.css";
     </style>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="container">
-            <a class="button" href="index.html">Home</a>
-            <ul>
-                <a href="user1.html">
-                    <li>User 1</li>
-                </a>
-                <a href="user2.html">
-                    <li>User 2</li>
-                </a>
-            </ul>
-            <a class="button" href="index.html">Back</a>
-        </div>
-    </div>
 
+            <span id="logo">
+                <img src="images/Logo.png">
+                <p>MICROSCOPE</p>
+            </span>
+
+            <div>
+                <div id="menu">
+                    <ul>
+                        <li><a class="button" href="index.html">Home</a></li>
+                        <li><a class="button" href="photos.html">Photos</a></li>
+                        <li><a class="button" href="users.html" style="background-color: rgb(26, 26, 26)">Users</a></li>
+                        <li><a class="button" href="about.html">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="contents">
+                    <table>
+                        <tr>
+                            <th>Login</th>
+                            <th>Fullname</th>
+                            <th>Registered</th>
+                        </tr>
+                        <tr class="table_data">
+                            <td><a href="users/user1.html">thedude</a></td>
+                            <td>Jeffrey Lebowski</td>
+                            <td>1995/05/13 16:30:59</td>
+                        </tr>
+                        <tr class="table_data">
+                            <td><a href="users/user2.html">vincentv</a></td>
+                            <td>Vincent Vega</td>
+                            <td>1993/08/01 03:10:13</td>
+                        </tr>
+                        <tr class="table_data">
+                            <td><a href="users/user3.html">merkwürdigliebe</a></td>
+                            <td>Dr. Strangelove</td>
+                            <td>2001/09/11 08:46:01</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>​
+    </div>
 </body>
 
 </html>
